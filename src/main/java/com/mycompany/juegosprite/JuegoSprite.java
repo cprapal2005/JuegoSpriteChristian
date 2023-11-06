@@ -59,8 +59,7 @@ public class JuegoSprite {
                                 
                                 ventana.modificarLayout(coordenadasPuntosInput, coordenadas);
                                 
-                                // Procesa coordenadas recibidas
-                                System.out.println("Coordenadas recibidas: " + coordenadasStr);
+                                //System.out.println("Coordenadas recibidas: " + coordenadasStr);
                                 
                                 if(Integer.parseInt(coordenadasPuntosInput[coordenadasPuntosInput.length-1])==0) {
                                     finalizar=false;
